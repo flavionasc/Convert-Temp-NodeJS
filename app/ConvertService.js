@@ -2,7 +2,7 @@ var ConvertService = {
 
 	getIndex: function(celsius) {
 		if(typeof(celsius) === 'number') {
-			return ((celcius * 1.8) +  32);
+			return ((celsius * 1.8) +  32);
 		}
 		return null;
 	},
